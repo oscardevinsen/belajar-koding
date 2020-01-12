@@ -1,0 +1,17 @@
+body{
+    font-family: arial, helvetica, sans-serif;
+    color: white;
+    background-color:grey
+}
+
+#row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.column {
+    flex-basis: content;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin-right: 14px;
+}
