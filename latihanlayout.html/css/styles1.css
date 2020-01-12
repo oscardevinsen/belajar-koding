@@ -1,9 +1,25 @@
-img{
-    width: 100%;
-}
+
 .card {
-    width: 33.33333%;
-}
+   
+        width: 30%;
+        padding: 14px;
+        box-sizing: border-box;
+    }    
+    .container {
+        max-width: 1020px;
+        margin: auto;
+    }
+
+    .card-item {
+        box-shadow: 0px 2px 15px 0.5px #ddd;
+        background-color: #351e7d;
+    }
+
+    .card-body {
+        padding: 14px;
+        color: blue;
+    }
+
 .row {
     display: flex;
     flex-wrap: wrap;
